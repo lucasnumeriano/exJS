@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Calcule a média das suas notas escolares no ano</h1>
+            <p>Qual matéria você quer saber sua média?
+            </p>
+            <input type="text" name="materia" id="materia">
+            <input type="button" value="Ok">
+            <p>Qual a média anual na sua escola?</p>
+            <p><input type="number" name="mesc" id="mesc"></p>
+            <p>Digite os valores das suas notas da primeira a quarta unidade para calcular sua média.</p>
+            <p>
+                1º Unidade <input type="number" name="und1" id="und1"><br>
+                2º Unidade <input type="number" name="und2" id="und2"><br>
+                3º Unidade <input type="number" name="und3" id="und3"><br>
+                4º Unidade <input type="number" name="und4" id="und4"><br><br>
+                <input type="button" value="Calcular" onclick="calc()">
+            </p>
+            <br><br>
+            <p>Resultado:</p>
+            <div id="res"></div> 
+        </section>
+    </main>
+    <script src="calculo.js"></script>
+</body>
+</html>
