@@ -1,4 +1,0 @@
-let anoCopa = 1930
-while (anoCopa <= 2022) {
-    console.log('Tivemos copa em anoCopa + 4')
-}
