@@ -1,0 +1,8 @@
+let anoCopa = 1930
+while (anoCopa <= 2022) {
+    if (anoCopa = 1942 && 1946) {console.log('Cancelada por conta da SGM')
+    } else {
+        console.log(`Tivemos copa em ${anoCopa}`)
+    }
+    anoCopa = anoCopa + 4
+}
