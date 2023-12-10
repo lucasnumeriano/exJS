@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Descubra quanto você gasta de combustivel mensalmente para ir ao trabalho</h1>
+    <ol>
+        <li>
+            <p>Quanto está o valor do combustivel que você usa?</p>
+            <input type="number" name="combustivel" id="valorDoCombustivel" class="dados">
+        </li>
+        <li>
+            <p>Quantos Km seu veiculo anda com um litro?</p>
+            <input type="number" name="gastodocarro" id="kmPorLitro" class="dados">
+        </li>
+        <li>
+            <p>Qual a distância da sua viagem ida e volta?</p>
+            <input type="number" name="distancia" id="km" class="dados">
+        </li>
+        <li>
+            <p>Quantas dias você vai ao trabalho no mês?</p>
+            <input type="number" name="idaaotrabalho" id="idaAoTrabalho" class="dados">
+        </li>
+    </ol>
+    <input type="button" value="Resultado" onclick="caucularViagem()">
+    <p class="resultado"></p>
+</body>
+</html>
