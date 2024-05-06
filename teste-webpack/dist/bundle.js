@@ -1,0 +1,1 @@
+document.querySelector("#div").innerHTML="\n        <h1>Hello Word</h1>\n    ",document.querySelector("#div").innerHTML+="Estou aprendendo modularização JavaScript!";

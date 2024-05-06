@@ -1,0 +1,1 @@
+document.querySelector("#div").innerHTML += "Estou aprendendo modularização JavaScript!"
